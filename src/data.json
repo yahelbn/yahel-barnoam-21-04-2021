@@ -1,0 +1,234 @@
+
+{
+
+"datalocation":[
+  {
+    "Version": 1,
+    "Key": "215854",
+    "Type": "City",
+    "Rank": 31,
+    "LocalizedName": "Tel Aviv",
+    "Country": {
+      "ID": "IL",
+      "LocalizedName": "Israel"
+    },
+    "AdministrativeArea": {
+      "ID": "TA",
+      "LocalizedName": "Tel Aviv"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "209001",
+    "Type": "City",
+    "Rank": 95,
+    "LocalizedName": "Tel Arza",
+    "Country": {
+      "ID": "IL",
+      "LocalizedName": "Israel"
+    },
+    "AdministrativeArea": {
+      "ID": "JM",
+      "LocalizedName": "Jerusalem"
+    }
+  }
+],
+
+"currenttempbyid":[
+  {
+    "LocalObservationDateTime": "2021-04-21T15:40:00+03:00",
+    "EpochTime": 1619008800,
+    "WeatherText": "Partly sunny",
+    "WeatherIcon": 3,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 22.5,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 72,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://m.accuweather.com/en/il/tel-aviv/215854/current-weather/215854?lang=en-us",
+    "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/current-weather/215854?lang=en-us"
+  }
+],
+
+"weektemp":{
+  "Headline": {
+    "EffectiveDate": "2021-04-24T08:00:00+03:00",
+    "EffectiveEpochDate": 1619240400,
+    "Severity": 4,
+    "Text": "Pleasant Saturday",
+    "Category": "mild",
+    "EndDate": null,
+    "EndEpochDate": null,
+    "MobileLink": "http://m.accuweather.com/en/il/tel-aviv/215854/extended-weather-forecast/215854?lang=en-us",
+    "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2021-04-21T07:00:00+03:00",
+      "EpochDate": 1618977600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 57,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 74,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 6,
+        "IconPhrase": "Mostly cloudy",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 36,
+        "IconPhrase": "Intermittent clouds",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=1&lang=en-us",
+      "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=1&lang=en-us"
+    },
+    {
+      "Date": "2021-04-22T07:00:00+03:00",
+      "EpochDate": 1619064000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 56,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 72,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 3,
+        "IconPhrase": "Partly sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=2&lang=en-us",
+      "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=2&lang=en-us"
+    },
+    {
+      "Date": "2021-04-23T07:00:00+03:00",
+      "EpochDate": 1619150400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 60,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 75,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 1,
+        "IconPhrase": "Sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=3&lang=en-us",
+      "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=3&lang=en-us"
+    },
+    {
+      "Date": "2021-04-24T07:00:00+03:00",
+      "EpochDate": 1619236800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 61,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 78,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Mostly sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=4&lang=en-us",
+      "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=4&lang=en-us"
+    },
+    {
+      "Date": "2021-04-25T07:00:00+03:00",
+      "EpochDate": 1619323200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 64,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 80,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 6,
+        "IconPhrase": "Mostly cloudy",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=5&lang=en-us",
+      "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=5&lang=en-us"
+    }
+  ]
+}
+
+}

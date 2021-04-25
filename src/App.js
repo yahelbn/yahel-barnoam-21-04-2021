@@ -1,24 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, Switch } from "react-router-dom";
+import React, { useState } from "react";
 
-function App() {
+/* Components */
+import Navbar from "./components/NavBar/index";
+import Sidebar from "./components/Sidebar/index";
+
+/* Pages */
+import Weather from "./pages/Weather/index";
+import Favorites from "./pages/Favorites/index";
+
+function App(props) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+  const [isDarkMode, setIsDarkMode] = useState(() => false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Sidebar
+        isOpen={isOpen}
+        toggle={toggle}
+        isDarkMode={isDarkMode}
+        setIsDarkMode={setIsDarkMode}
+      />
+      <Navbar
+        toggle={toggle}
+        isDarkMode={isDarkMode}
+        setIsDarkMode={setIsDarkMode}
+      />
+      <Switch>
+        <Route
+          path={"/"}
+          exact
+          render={(propRouter) => (
+            <Weather {...propRouter} {...props} isDarkMode={isDarkMode} />
+          )}
+        />
+
+        <Route
+          path={"/favorites/"}
+          render={(propRouter) => (
+            <Favorites {...propRouter} {...props} isDarkMode={isDarkMode} />
+          )}
+        />
+      </Switch>
+    </>
   );
 }
 
