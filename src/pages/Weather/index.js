@@ -74,6 +74,7 @@ function Weather(props) {
   };
 
   useEffect(() => {
+    console.log(props.location);
     if (props.location.state) {
       getDataFunction(props.location.state.favId);
       setLocation(props.location.state.favLoc);
