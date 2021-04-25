@@ -45,7 +45,7 @@ function Weather(props) {
   const getDataFunction = async (locationKey) => {
     /* 1)get by axios the temp of today in the chosen city -with the key*/
     const tempOfToday = await axios.get(
-      `http://dataservice.accuweather.com/currentconditions/v1/${locationKey}`,
+      `https://dataservice.accuweather.com/currentconditions/v1/${locationKey}`,
       {
         params: { apikey: keyToken },
       }
@@ -55,7 +55,7 @@ function Weather(props) {
     /* 2)get by axios the temp of all week -with the key*/
 
     const fiveDaysTemp = await axios.get(
-      `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}`,
+      `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}`,
       {
         params: { apikey: keyToken },
       }
@@ -65,7 +65,7 @@ function Weather(props) {
   const searchByWordTheLocation = async () => {
     /* get by axios the data geo locations by key words*/
     const geolocations = await axios.get(
-      `http://dataservice.accuweather.com/locations/v1/cities/autocomplete`,
+      `https://dataservice.accuweather.com/locations/v1/cities/autocomplete`,
       {
         params: { apikey: keyToken, q: searchTerm },
       }
